@@ -1,0 +1,60 @@
+.services {
+  margin-top: 10vw;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3em 0;
+}
+
+.two {
+  margin: 2em;
+  width: 30vw;
+  height: auto;
+  letter-spacing: 2px;
+  background-color: #34495e;
+  color: white;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 10px 11px 19px 5px #000;
+}
+
+.two:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease;
+}
+
+.two h1 {
+  text-align: center;
+  background-color: black;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.two p {
+  font-size: 0.8em;
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  .line {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .two p {
+    font-size: 2vw;
+  }
+
+  .two h1 {
+    font-size: 2vw;
+  }
+
+  .two {
+    width: 80vw;
+    height: auto;
+  }
+}
